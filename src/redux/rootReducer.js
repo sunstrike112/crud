@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import { GlobalReducer } from './slices/globalSlice';
+import { CRUDReducer } from './slices/CRUDSlice';
 
 const rootReducer = combineReducers({
-  GlobalReducer
+  CRUDReducer
 });
 
 export default rootReducer;

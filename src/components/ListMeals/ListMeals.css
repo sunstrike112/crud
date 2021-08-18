@@ -1,0 +1,35 @@
+.listmeals,
+.listmeals * {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.listmeals {
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+}
+
+.listmeals--body a {
+  border: none;
+  color: black;
+}
+
+.listmeals--header > th {
+  background-color: gray;
+  color: white;
+}
+
+.gray {
+  background-color: rgb(184, 194, 204);
+}
+
+.white {
+  background-color: white;
+}
+
+@media screen and (min-width: 376px) {
+  .listmeals {
+    width: 60vh;
+  }
+}

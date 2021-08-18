@@ -1,3 +1,3 @@
-import { GlobalActions } from './slices/globalSlice';
+import { CRUDActions } from './slices/CRUDSlice';
 
-export { GlobalActions };
+export { CRUDActions };

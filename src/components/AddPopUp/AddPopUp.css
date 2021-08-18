@@ -1,0 +1,7 @@
+.popup > .ant-modal-content > .ant-modal-footer > button:nth-child(1) {
+  display: none;
+}
+
+p {
+  color: red;
+}

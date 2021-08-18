@@ -38,25 +38,29 @@
 }
 
 /* Manual CSS */
-@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap");
 
-*{
-    font-family: 'Ropa Sans', Impact, sans-serif;
-    box-sizing: border-box;
-    font-size: 30px;
+* {
+  font-family: "Ropa Sans", Impact, sans-serif;
+  box-sizing: border-box;
 }
 
-#root{
+#root {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#root > div.homepage {
+.crud-app {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  font-size: 22px;
+}
+
+.crud-app > button {
+  align-self: flex-end;
+  margin-bottom: 1rem;
 }
